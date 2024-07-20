@@ -1,0 +1,75 @@
+.root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 306px;
+  width: 306px;
+  border: 3px solid black;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+
+
+/* 
+
+
+.root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 304px;
+  height: 304px;
+  border: solid 2px black;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: solid 2px black;
+  box-sizing: border-box;
+  background-color: rgba(19, 19, 185, 0.342);
+}
+.cross, .circle {
+  font-size: 80px;
+  font-weight: bold;
+}
+.cell {
+  color: rgb(11, 75, 61);
+  font-size: 60px;
+  font-weight: bold;
+}
+.winn {
+  font-size: 25px;
+  color: green;
+  font-weight: 7
+  
+  
+  00;
+} */
